@@ -8,3 +8,7 @@ var cognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
 var cognomeUtente = prompt("Inserisci il tuo cognome");
 cognomi.push(cognomeUtente);
 console.log(cognomi.sort());
+// 3. cerco l'indice della posizione del cognome inserito
+for (var i = 0; i < cognomi.length; i++){
+  console.log((cognomi.indexOf(cognomeUtente) + 1));
+}
