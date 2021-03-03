@@ -11,4 +11,6 @@ console.log(cognomi.sort());
 // 3. cerco l'indice della posizione del cognome inserito
 for (var i = 0; i < cognomi.length; i++){
   console.log((cognomi.indexOf(cognomeUtente) + 1));
+  document.getElementById('lista-cognomi').innerHTML += "<li>" + cognomi[i] + "</li>";
+  document.getElementById('posizione').innerHTML = (cognomi.indexOf(cognomeUtente) + 1);
 }

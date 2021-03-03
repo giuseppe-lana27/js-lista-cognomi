@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blocco-cognomi{
+  text-align: center;
+  background-color: #ADD8E6;
+  padding: 50px;
+}
+#lista-cognomi{
+  list-style: none;
+  margin: 20px 0;
+  font-size: 20px;
+}
+#lista-cognomi li:not(:first-child) {
+  margin-top: 10px;
+}
